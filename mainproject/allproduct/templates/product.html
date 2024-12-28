@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Cards Layout</title>
+  <link rel="stylesheet" href="{% static 'product.css'%}">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="grid sm:grid-rows gap-[30px] lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-items-center p-5" id="product-container">
+  </div>
+
+  <script>
+      fetch('http://127.0.0.1:8000/allproduct/product/')
+          .then(response => response.json())
+          .then(products => {
+              const container = document.getElementById('product-container');
+              products.forEach(product => {
+                  const card = `
+                      <div class="card">
+                         <div class="cardimage">
+    <a href="http://127.0.0.1:8000/allproduct/productdetailfrontend/${product.id}/">
+        <img src="${product.product_image}" alt="product_image">
+    </a>
+</div>
+
+                          <div class="cardcontent">
+                              <div class="cardheader">
+                                  <p class="productcode">Product Code: ${product.id}</p>
+                                  <p class="productrating">4.5
+                                      <img src="https://img.icons8.com/?size=100&id=19417&format=png&color=000000" alt="">
+                                  </p>
+                              </div>
+                              <div>
+                                  <p class="productname">${product.product_name}</p>
+                              </div>
+                              <div class="productprice">
+                                  <p class="discountedprice">${product.price}</p>
+                              </div>
+                          </div>
+                          <div class="cardbuttons">
+                              <button class="atc-btn" onclick="handleAddtoCart('${product.product_name}', '${product.id}')">
+                                  <img src="https://img.icons8.com/?size=100&id=9720&format=png&color=000000" alt="">
+                                  Add to cart
+                              </button>
+                              <button class="wl-btn" onclick="handleAddtoWishlist('${product.product_name}', '${product.id}')">
+                                  <img src="https://img.icons8.com/?size=100&id=19411&format=png&color=000000" alt="">
+                              </button>
+                          </div>
+                      </div>
+                  `;
+                  container.innerHTML += card;
+              });
+          });
+  </script>
+</body>
+</html>
