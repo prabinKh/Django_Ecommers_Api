@@ -4,51 +4,30 @@ from django.utils.text import slugify
 import uuid
 
 class Laptop(models.Model):
-    """Model to represent a laptop product."""
-    # Unique identifiers and basic details
-    laptop_id = models.UUIDField(default=uuid.uuid4, editable=False, unique=True)
-    name = models.CharField(max_length=255)  # e.g., MacBook Pro
-    brand = models.CharField(max_length=255)  # e.g., Apple, Dell, HP
     description = models.TextField()
-    slug = models.SlugField(unique=True, blank=True, editable=True)
-    category = models.CharField(max_length=255, default="Laptops")
-    currency = models.CharField(max_length=10, default="USD")
-
-    # Specifications
-    processor = models.CharField(max_length=255, blank=True, null=True)  # e.g., Intel i7
-    ram = models.CharField(max_length=50, blank=True, null=True)  # e.g., 16GB
-    storage = models.CharField(max_length=50, blank=True, null=True)  # e.g., 512GB SSD
-    gpu = models.CharField(max_length=255, blank=True, null=True)  # e.g., NVIDIA RTX 3060
-    screen_size = models.CharField(max_length=50, blank=True, null=True)  # e.g., 15.6-inch
-    weight = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True)  # in kilograms
-
-    # Pricing and stock
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    discounted_price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
-    stock = models.PositiveIntegerField()
-
-    # Images
-    image1 = models.ImageField(upload_to="laptop_images/", blank=True, null=True)
-    image2 = models.ImageField(upload_to="laptop_images/", blank=True, null=True)
-    image3 = models.ImageField(upload_to="laptop_images/", blank=True, null=True)
-
-    # Metadata
-    views = models.PositiveIntegerField(default=0)
-    purchases = models.PositiveIntegerField(default=0)
+    price = models.CharField(max_length=50)
+    link = models.URLField()
+    company_name = models.CharField(max_length=255)
+    product_name = models.CharField(max_length=255)
+    ram = models.CharField(max_length=50)
+    screen_size = models.CharField(max_length=50)
+    storage = models.CharField(max_length=50)
+    color = models.CharField(max_length=50)
+    weight = models.CharField(max_length=50)
+    operating_system = models.CharField(max_length=50)
+    screen_type = models.CharField(max_length=50)
+    processor_generation = models.CharField(max_length=50)
+    slug = models.SlugField(unique=True, blank=True)
+    reviews = models.TextField(blank=True, null=True)  # To be added later
+    tags = models.CharField(max_length=255, blank=True, null=True)  # To be added later
     created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    # Relationships
-    tags = models.ManyToManyField('Tag', blank=True, related_name="laptops")
-    reviews = models.ManyToManyField('Review', blank=True, related_name="laptops")
-
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = slugify(self.name)
+            self.slug = slugify(f"{self.company_name}-{self.product_name}-{self.processor_generation}")
         super().save(*args, **kwargs)
 
     def __str__(self):
-        return f"{self.brand} {self.name}"
+        return self.product_name
 
 
 class Tag(models.Model):
