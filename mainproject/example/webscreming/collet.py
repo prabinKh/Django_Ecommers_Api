@@ -74,31 +74,78 @@
 
 
 ##################################################
+# from bs4 import BeautifulSoup
+# import os
+# import pandas as pd
+
+# d = {
+#     'href': [],
+    
+# }
+
+# with open('data/dell_laptops_page32.html', encoding='utf-8') as f:
+#     html_doc = f.read()
+
+# soup = BeautifulSoup(html_doc, 'html.parser')
+# items = soup.find_all('div', class_='item col')
+
+# for item in items:
+#     # Get first href and src
+#     first_a = item.find('a')
+   
+    
+#     href = first_a['href'] if first_a else ''
+   
+    
+#     d['href'].append(href)
+  
+
+# df = pd.DataFrame(d)
+# df.to_csv('dell_laptops_links.csv', index=False)
+
+
+
+
+
+
+
+
+
+##################################
 from bs4 import BeautifulSoup
 import os
 import pandas as pd
 
-d = {
+# Initialize dictionary for all links
+all_links = {
     'href': [],
-    
 }
 
-with open('data/dell_laptops_page32.html', encoding='utf-8') as f:
-    html_doc = f.read()
+# Process all HTML files in data directory
+data_dir = 'data'
+for filename in os.listdir(data_dir):
+    if filename.endswith('.html'):
+        file_path = os.path.join(data_dir, filename)
+        
+        # Read HTML file
+        with open(file_path, encoding='utf-8') as f:
+            html_doc = f.read()
+        
+        # Parse HTML
+        soup = BeautifulSoup(html_doc, 'html.parser')
+        items = soup.find_all('div', class_='item col')
+        
+        # Extract links
+        for item in items:
+            first_a = item.find('a')
+            href = first_a['href'] if first_a else ''
+            all_links['href'].append(href)
+        
+        print(f"Processed: {filename}")
 
-soup = BeautifulSoup(html_doc, 'html.parser')
-items = soup.find_all('div', class_='item col')
+# Create DataFrame and save to CSV
+df = pd.DataFrame(all_links)
+df.drop_duplicates(inplace=True)  # Remove duplicate links
+df.to_csv('all_product_links.csv', index=False)
 
-for item in items:
-    # Get first href and src
-    first_a = item.find('a')
-   
-    
-    href = first_a['href'] if first_a else ''
-   
-    
-    d['href'].append(href)
-  
-
-df = pd.DataFrame(d)
-df.to_csv('dell_laptops_links.csv', index=False)
+print(f"Total unique links extracted: {len(df)}")

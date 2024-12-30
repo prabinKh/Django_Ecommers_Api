@@ -9,7 +9,7 @@ os.makedirs('data', exist_ok=True)
 
 driver = webdriver.Chrome()
 query = 'laptop'
-laptop_name = 'macbook'
+laptop_name = 'Dell'
 file = 0
 
 for i in range(1,5):
