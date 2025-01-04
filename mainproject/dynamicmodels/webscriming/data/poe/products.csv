@@ -1,0 +1,84 @@
+html_filename,image1,image2,image3,image4,product_title,short_description,price,Model,Connector Type,Network Media (Cable),PoE Parameters,Network Media,Optical,Performance Specification,Power Supply,Working Environment,label,description2,PoE standard,Network Media(Cable),MAC Address Table,Transfer mode,Frame Forward Rate,Switching Capacity,Dimensions (L*W*H),Fan,Power Input,PoE Port,PoE Power on RJ45,PoE Power Output,PoE Power budget,Temperature,Humidity,Warranty,Product Name,No. of channels,Pass-Through Data Rates,Power over Ethernet input,Power over Ethernet Output,Indicators,Connectors,Network cables,Dimensions,Mounting,Environment,Environmental Conditions,Regulatory Compliance,No. of channels,Pass Through Data Ratesi,Power over Ethernet Output,Input Power Requirements,Protection,Environmental Conditions,Pass-Through Data Rates,Regulatory Compliance,Interface,Data In/Out,Power In/Out Port,PoE PIN,PoE Consumption,LED Indicator,DIP Switch,Fan Quantity,Transmission Method,Protection Level,Advanced Functions,Certification,Package Dimension,DeviceDimension,Gross Weight,Net Weight,Package Contents,HARDWARE FEATURES
+cudy-gs1020ps2-16-port-gigabit-poe-switch-with-2-gigabit-sfp-ports.html,https://www.neostore.com.np/assets/uploads/GS1020PS2_2.jpg,https://www.neostore.com.np/assets/uploads/GS1020PS2.jpg,https://www.neostore.com.np/assets/uploads/GS1020PS2_2.jpg,https://www.neostore.com.np/assets/uploads/GS1020PS2.jpg,Cudy GS1020PS2 16-Port Gigabit PoE+ Switch with 2 Gigabit SFP Ports,"●IEEE 802.3af / 802.3at standard compliant
+●200-watt total PoE power budget, up to 30-watt per port
+●16xGbE PoE+Port+2 x SFP Port
+●CCTV Mode supports remote power&data feeding up to 250M
+●VLAN mode supports 16 POE+ ports isolated from each other
+●LED indicators for network diagnostics
+●19-inch metal case, internal power design","Current Price: Rs.33,725, Original Price: Rs.35,500",GS1020PS2,16*10/100/1000M PoE Ports + 2*Gigabit SFP Uplink Ports,"IEEE802.3
+			IEEE802.3u
+			IEEE802.3x
+			IEEE802.3ab
+			IEEE802.3z",PoE Standard: IEEE802.3af /IEEE802.3at,"10BASE-T: Cat 5E UTP(≤250 meter)
+			100BASE-TX: Cat5 or more UTP (≤100 meter)
+			1000BASE-TX: Cat5 or more UTP (≤100 meter)","MultiMode Fiber: 850nm, 1310nm,  Transmission Distance: 550m/2Km
+			Single-Mode Fiber: 1310nm, 1550nm,  Transmission Distance: 20/40/60/80/100/120km",Bandwidth: 52Gbps,"Power input: AC100-240V 50/60Hz,  Power Budget: 200W","Operating Temperature: -20℃ ~ 50℃;
+			Storage Temperature: -40℃ ~ 80℃; 
+			Operating Humidity: Max 90%, non-condensing
+			Storage Humidity: Max 95%, non-condensing
+			Working Height: Max to 10,000 feet (3,000 meters)
+			Storage Height: Max to 10,000 feet (3,000 meters)",,"    16-Port PoE + 2-Port Fiber ● 10/100 / 1000Mbps Ethernet ports
+● IEEE 802.3af / 802.3at compliant
+● 200W total PoE power supply.
+● Ideal for installing 16 PoE devices
+● Auto-sensing technology delivers up to 30W of power to an 802.3at PoE + device with backwards compatibility for 802.3af PoE (15.4W) devices  200W Power budget & 30W Maximum One Port Supports 200W total PoE+ power and up to 30W for one PoE port. Auto detect power device, will not burned non-standard PoE device or normal PoE switch. Complies with IEEE802.3af/at Standard.  Heat Dissipation ● Made of high-quality metal case, sturdy and durable with long service life, provide better heat dissipation, suitable for most environment.  High Quality TPS PoE chipset inside ● High Quality TPS PoE chipset inside ensure High performance and stable operation of the product.  Auto-sensing technology ● The port power prioritization technology ensures the continuous power supply of the key nodes.  Lightning protection ● Electrostatic standard: contact 6KV, air 8KV
+● MTBF > 50000 hour",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cudy-gs1028ps2-24-port-gigabit-poe-switch-with-2-gigabit-sfp-ports.html,https://www.neostore.com.np/assets/uploads/GS1028PS2_2.jpg,https://www.neostore.com.np/assets/uploads/GS1028PS2.jpg,https://www.neostore.com.np/assets/uploads/GS1028PS2_2.jpg,https://www.neostore.com.np/assets/uploads/GS1028PS2.jpg,Cudy GS1028PS2 24-Port Gigabit PoE+ Switch with 2 Gigabit SFP Ports,"● IEEE 802.3af/802.3at standard compliant
+● 300 watts total PoE power budget, up to 30-watt per port
+● 24 x GbE PoE+ Port and 2 x SFP Port
+● CCTV Mode supports remote power & data feeding up to 250 meters
+● VLAN mode supports 24 POE+ ports isolated from each other
+● LED indicators for network diagnostics
+●19-inch metal case, internal power design","Current Price: Rs.37,525, Original Price: Rs.39,500",GS1028PS2,,,,,,,,,,"     24-Port PoE + 2-Port Uplink ● 10/100 / 1000Mbps Ethernet ports
+● IEEE 802.3af / 802.3at compliant
+● 300W total PoE power supply.
+● Ideal for installing 24 PoE devices
+● Auto-sensing technology delivers up to 30W of power to an 802.3at PoE + device with backward compatibility for 802.3af PoE (15.4W) devices  Flexibility of Uplink Ports ● 2 x 1.25Gbps  SFP ports
+● Support for the 19-inch cabinet installation
+● Support desktop installation  Heat Dissipation ● Made of high-quality metal case, sturdy and durable with long service life, provide better heat dissipation, suitable for most environments.
+● Built-in fan and venting holes help to dissipate heat quickly and ensure stable product operation  Texas Instruments PoE chipset inside ● Texas Instruments TPS POE chipset and Realtek switch chipset ensure High performance and stable operation of the product.  Auto-sensing technology ● The port power prioritization technology ensures the continuous power supply of the key nodes.  Lightning protection ● Electrostatic standard: contact 6KV, air 8KV
+● MTBF > 50000 hours ","IEEE802.3, IEEE802.3u, IEEE802.3ab, IEEE802.3z, IEEE802.3x, IEEE802.3af, IEEE802.3at","10 BASE-T: UTP category 3, 4, 5 cable (≤100m)
+			100 BASE-TX: UTP category 5 cable (≤100m)
+			1000 BASE-T: UTP category 5e cable (≤100m)
+			1000 BASE-X: MMF or SMF SFP module","8K, Auto-learning, Auto-aging",Store-and-Forward,"10 Base-T: 14881pps/Port
+			100 Base-TX: 148810pps/Port
+			1000 Base-T/X: 1488095pps/Port",56Gbps,440 * 207 * 44 mm,2/Fanless,"AC: 100~240V, 50/60Hz",Port1~24,"Mode A  1/2(-), 3/6(+)",30W (Max),300Watts,"Operating Temperature: 0°C ~ 40 °C (32 °F ~104°F )
+			Storage Temperature: -40 °C ~ 70 °C (-40 °F ~158°F )","Operating Humidity: 10% ~ 90% non-condensing
+			Storage Humidity: 5% ~ 90% non-condensing",2 Years,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+cudy-poe15-power-over-ethernet-extender.html,https://www.neostore.com.np/assets/uploads/POE15_3.jpg,https://www.neostore.com.np/assets/uploads/POE15.jpg,https://www.neostore.com.np/assets/uploads/POE152_.jpg,https://www.neostore.com.np/assets/uploads/POE15_3.jpg,Cudy POE15 Power over Ethernet Extender,"● Compatible with IEEE802.3af and IEEE802.3at
+● Extends the range of PoE and Ethernet an additional 100 meters
+● No additional power supply is required
+● Automatically detects and protects PoE equipment from being
+damaged by incorrect installation
+● Full-rate network throughout the whole extended distance
+Compact size, Wall-Mountable design
+● Easy plug-and-play installation
+● EMI standards complies with FCC, CE class B","Current Price: Rs.11,305, Original Price: Rs.11,900",,,,,,,,,,,".   
+Gigabit Ports Gigabit Speed. The PoE Extender features one 10/100/1000Mbps PoE+ input port and one 10/100/1000Mbps PoE+ output port. Wall Mount The wall-mounted design is convenient for network deployment, allowing the expander to be installed in any position, and ensuring stability and avoiding damage. Plug and Play Plug and Play, no other settings are required. No external power is required. Pin Assignment and Polarity Input: 1/2 (-), 3/6 (+), 4/5(+), 7/8(-), Output: 1/2 (+), 3/6 (-).",,,,,,,,,,,,,,,,2 Years,POE15,1(PoE IN) into 1(PoE OUT),10/100/1000 Mbps half/full duplex,"Pin Assignment and Polarity:Both 1/2 (-), 3/6 (+) and  7/8 (-), 4/5 (+)","Pin Assignment and Polarity:1/2 (+), 3/6 (-)
+Output Power: up to 25W",LED indicators are located on the RJ45 connectorPower indicator: PoE enabledNetwork indicator: Link/Act,"Shielded RJ-45, EIA 568A and 568B",Shielded category 5 (or higher),185mm x 45mm x 45mm,Wall of shelf,Indoor or Outdoor,"Operating Ambient Temperature: -25 to 55℃
+Operating Humidity: Maximum 90%, Non-condensing
+Storage Temperature: -30 to 70℃
+Storage Humidity: Maximum 95%, Non-condensing","IEEE 802.3af (PoE), IEEE 802.3at (PoE+)",,,,,,,,,,,,,,,,,,,,,,,,,,
+cudy-poe200-30w-gigabit-poe-poe-injector-.html,https://www.neostore.com.np/assets/uploads/POE200_3.jpg,https://www.neostore.com.np/assets/uploads/POE200_2.jpg,https://www.neostore.com.np/assets/uploads/POE200.jpg,https://www.neostore.com.np/assets/uploads/POE200_3.jpg,Cudy POE200 30W Gigabit PoE+/PoE Injector,"● Up to 30W Power Supply
+● Supports 10/100/1000 Base-T applications
+● LED indicators power input and PoE output
+● Internal AC/DC converter no need for the external power brick
+● Easy plug-and-play installation
+● Muti-protection","Current Price: Rs.3,800, Original Price: Rs.4,000",POE200,,,,,,,,,," Surveillance Works with IP Cameras for home and office, small business. VoIP Conference Call Works with VoIP phones for a business conference Wi-Fi Coverage Works with WiFi APs for office and business",,,,,,,,,,,,,,,,2 Years,,,,,,System Indicator: AC Power,"Shielded RJ-45, EIA 568A and 568B",,121mm x 50mm x 36mm,,,,,1,10/100/1000Mbps,"Pin Assignment and Polarity: 1/2 (-), 3/6 (+)",AC Input Voltage: 100 to 240 VAC,Over current protection,Operating Ambient Temperature:-40 to 40℃,,,,,,,,,,,,,,,,,,,,
+cudy-poe300-60w-gigabit-poe-injector-.html,https://www.neostore.com.np/assets/uploads/POE300_2.jpg,https://www.neostore.com.np/assets/uploads/POE300.jpg,https://www.neostore.com.np/assets/uploads/POE300_3.jpg,https://www.neostore.com.np/assets/uploads/POE300_2.jpg,Cudy POE300 60W Gigabit PoE++ Injector,"● Up to 60 watts PoE power supply
+● 1 10/100/1000M Ethernet Input port
+● 1 10/100/1000M PoE Output port
+● IEEE 802.3bt/at/af standard compliant
+● Plug&play, simple setup with no configuration needed","Current Price: Rs.6,650, Original Price: Rs.7,000",POE300,,,,,,,,,," PoE / 802.3af Each PoE port powers up to 15W at a very short distance. Power delivered at a longer distance (up to 100m) is 12.95W. Typical devices needing less than 12.95W are: • IP Phones with small or no display • Indoor Wireless 802.11n or 2x2 Wireless 802.11ac Access Points • Simple IP Cameras  PoE+ / 802.3at Each PoE+ port powers up to 30W(2 Pair)or 60W(4 Pair) at a very short distance. Power delivered at a longer distance (up to 100m) is 25.5W or 51W(4 Pair). Typical devices are: • IP Phones with a large display, video phones, and conference systems • Up to 4x4 Wireless 802.11ac (WiFi 5) or 2x2 802.11ax (WiFi 6) Access Points • Pan-Tilt-Zoom HD IP Cameras without heaters PoE++ / 802.3bt Each PoE++ port powers up to 60W(2 Pair) or 90W (4 Pair) at a very short distance. Power delivered at a longer distance (up to 100m) is 51W(2 Pair) or 71W (4 Pair). Typical devices are: • Conference systems with a large display • Up to 4x4 802.11ax (WiFi 6) Access Points • PTZ HD IP Cameras with heaters • AV over IP encoders/decoders • Ceiling tiles LED Lighting • Large audio speakers Surveillance Works with IP Cameras for home and office, and small businesses. VoIP Conference Call Works with VoIP phones for a business conference ",,,,,,,,,,,,,,,,2 Years,,,,,,System Indicator: AC Power,"Shielded RJ-45, EIA 568A and 568B",,145mm x 60mm x 40mm,,,,,1,,"Pin Assignment and Polarity: 1/2 (-), 3/6 (+),4/5 (+), 7/8 (-),
+Output Power Voltage: 53Vdc
+User Port Power: 60W",AC Input Voltage: 100 to 240 VAC,,,10/100/1000Mbps,"IEEE 802.3af (15.4W)
+			IEEE 802.3at (30W)
+			IEEE 802.3bt (60W)",,,,,,,,,,,,,,,,,,
+wi-tek-1000mbps-poe-injector-wi-poe51-48v.html,https://www.neostore.com.np/assets/uploads/wiwi.jpg,https://www.neostore.com.np/assets/uploads/WI-POE51-48V.jpg,https://www.neostore.com.np/assets/uploads/wiwi.jpg,https://www.neostore.com.np/assets/uploads/WI-POE51-48V.jpg,WI-TEK 1000Mbps PoE Injector WI-POE51-48V,"● 1*100/1000Mbps PoE output port with 802.3af/at 24W
+● 1*100/1000Mbps Ethernet input port
+● AC IN 100-240V
+● Plug and play, no configuration","Current Price: Rs.2,500, Original Price: Rs.",,,,,"10BASE-T: UTP category 3, 4, 5 cable (Max 100m)",,,AC IN 100-240V,,, ,,,,,,,,,,,,,,,,3 Years,,,,,,,,,,,,,,,,,,,,,,1 10/1000Mbps PoE RJ45 Port,1 x 10/1000Mbps Data In,1 x 802.3af/at PoE Out,4/5(+) 7/8(-) or 1/2(+) 3/6(-),48V 24W,PWR-Power,N/A,Fanless,Store-And-Forward,6kV Lightning protection,Mac Address Auto-Learning And Auto-Aging,"CE, FCC, RoHS",205×134×47mm,113×48×30mm,0.3kg,0.12kg,1 x PoE Switch,
+wi-tek-100mbps-poe-injector-wi-poe31-48v.html,https://www.neostore.com.np/assets/uploads/witek0.jpg,https://www.neostore.com.np/assets/uploads/witek0_2.jpg,https://www.neostore.com.np/assets/uploads/witek0.jpg,https://www.neostore.com.np/assets/uploads/witek0_2.jpg,WI-TEK 100Mbps PoE Injector WI-POE31-48V,"● 1*10/100Mbps PoE output port with 802.3af/at 24W
+● 1*10/100Mbps Ethernet input port
+● AC IN 100-240V
+● Plug and play, no configuration","Current Price: Rs.1,500, Original Price: Rs.",,,,,"10BASE-T: UTP category 3, 4, 5 cable (Max 100m)",,,AC IN 100-240V,,, ,,,,,,,,,,,,,,,,3 Years,,,,,,,,,,,,,,,,,,,,,,1 10/100Mbps PoERJ45 Port,1 x 10/100Mbps Data In,1 x 802.3af/at PoE Out,4/5(+) 7/8(-) or 1/2(+) 3/6(-),48V 24W,PWR-Power,N/A,Fanless,Store-And-Forward,6kV Lightning protection,Mac Address Auto-Learning And Auto-Aging,"CE, FCC, RoHS",205×134×47mm,113×48×30mm,0.3kg,0.12kg,,WI-POE31-48V
