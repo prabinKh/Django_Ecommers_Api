@@ -10,13 +10,13 @@ def determine_field_type(column_name):
         return 'models.URLField(max_length=500, null=True, blank=True)'
     
     if any(x in column_lower for x in ['price', 'cost', 'amount']):
-        return 'models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)'
+        return 'models.TextField(null=True, blank=True)'
     
     if any(x in column_lower for x in ['description', 'detail', 'content', 'text']):
         return 'models.TextField(null=True, blank=True)'
         
     if any(x in column_lower for x in ['specification', 'json', 'data']):
-        return 'models.JSONField(null=True, blank=True)'
+        return 'models.TextField(null=True, blank=True)'
         
     return 'models.CharField(max_length=255, null=True, blank=True)'
 
